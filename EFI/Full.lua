@@ -269,7 +269,7 @@ while uptime() < deadline do
 
 		if internetAddress then	
 			tableInsert(utilities, 2, menuElement("Internet recovery", function()
-				local handle, data, result, reason = componentProxy(internetAddress).request("https://raw.githubusercontent.com/HerrMorningstar/MacOS/master/Installer/Main.lua"), ""
+				local handle, data, result, reason = componentProxy(internetAddress).request("https://raw.githubusercontent.com/LikeGeil/MacOS/master/Installer/Main.lua"), ""
 
 				if handle then
 					status(stringsMain, "Downloading recovery script")
