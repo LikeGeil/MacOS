@@ -1,7 +1,7 @@
 
 ## MacOS for OpenComputers has released!
 
-Hello again, dear friend. Thank you for being with us and supporting our ideas throughout the long development cycle. MacOS has finally reached the release stage: now it is a completely independent operating system with its own lightweight development API and wonderful [illustrated wiki](https://github.com/HerrMorningstar/MacOS/wiki) of it's usage. Here's a short features list:
+Hello again, dear friend. Thank you for being with us and supporting our ideas throughout the long development cycle. MacOS has finally reached the release stage: now it is a completely independent operating system with its own lightweight API. Here's a short features list:
 
 -   Multitasking
 -   Double buffered graphical user interface
@@ -20,7 +20,7 @@ Hello again, dear friend. Thank you for being with us and supporting our ideas t
 
 The easiest way is to use default **pastebin** script. Insert OpenOS floppy disk to computer, insert an Internet Card, turn computer on and type the following to console:
 
-	pastebin run SzD1aPkW
+	pastebin run XKuCTt6s
 
 After a moment, a nice system installer will be shown. You will be prompted to select your preferred language, select and format a boot volume, create a user profile and customize some settings. After that, the system will be successfully installed.
 
