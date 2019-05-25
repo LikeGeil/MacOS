@@ -1,5 +1,5 @@
 
-## MacOS for OpenComputers has released!
+## SoftOS for OpenComputers!
 
 Hello again, dear friend. Thank you for being with us and supporting our ideas throughout the long development cycle. MacOS has finally reached the release stage: now it is a completely independent operating system with its own lightweight API. Here's a short features list:
 
@@ -27,5 +27,5 @@ After a moment, a nice system installer will be shown. You will be prompted to s
 
 ## Updates
 
-If you have installed MacOS, you need to download Updates.
+If you have installed SoftOS, you need to download Updates.
 Every Update is on our Update-Server and will not downloaded at the Setup.
