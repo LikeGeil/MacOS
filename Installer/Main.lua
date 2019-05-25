@@ -5,7 +5,7 @@ local repositoryURL = "https://raw.githubusercontent.com/LikeGeil/MacOS/master/"
 local installerURL = "Installer/"
 local EFIURL = "EFI/Minified.lua"
 
-local installerPath = "/MacOS installer/"
+local installerPath = "/SoftOS installer/"
 local installerPicturesPath = installerPath .. "Installer/Pictures/"
 local OSPath = "/"
 

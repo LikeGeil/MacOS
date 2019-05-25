@@ -2417,6 +2417,7 @@ function system.updateDesktop()
 		
 		local lines = {
 			"MacOS",
+			"Version: 1.2",
 			"Copyright © 2018-2019",
 			" ",
 			"Developers:",

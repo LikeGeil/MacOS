@@ -13,7 +13,7 @@ local event = require("Event")
 
 --------------------------------------------------------------------------------
 
-local host = "http://appstore.macos.solice.net/"
+local host = "http://appstore.softos.smochy.de/"
 local iconCheckReponseTime = 2
 
 local overviewIconsCount = 14
@@ -22,7 +22,7 @@ local overviewForceDecay = 0.15
 local overviewForceLimit = 0.5
 local overviewMaximumTouchAcceleration = 5
 
-local appMarketPath = paths.user.applicationData .. "App Market/"
+local appMarketPath = paths.user.applicationData .. "App Store/"
 local configPath = appMarketPath .. "Config.cfg"
 local userPath = appMarketPath .. "User.cfg"
 local iconCachePath = appMarketPath .. "Cache/"
@@ -91,7 +91,7 @@ local leftList = window:addChild(GUI.list(1, 4, leftListPanel.width, 1, 3, 0, 0x
 
 local contentContainer = window:addChild(GUI.container(1, 1, 1, 1))
 
-local sponsoredLabel = window:addChild(GUI.text(2, 1, 0x3C3C3C, "Hosted by elrobtossohn"))
+local sponsoredLabel = window:addChild(GUI.text(2, 1, 0x3C3C3C, "Sponsored by Smochy"))
 
 local progressIndicator = window:addChild(GUI.progressIndicator(math.floor(leftListPanel.width / 2 - 1), 1, 0x3C3C3C, 0x00B640, 0x99FF80))
 
