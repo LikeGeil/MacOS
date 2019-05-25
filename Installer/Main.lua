@@ -1,7 +1,7 @@
 
 local EEPROMProxy, internetProxy, GPUProxy = component.proxy(component.list("eeprom")()), component.proxy(component.list("internet")()), component.proxy(component.list("gpu")())
 
-local repositoryURL = "https://raw.githubusercontent.com/LikeGeil/MacOS/master/"
+local repositoryURL = "https://raw.githubusercontent.com/LikeGeil/SoftOS/master/"
 local installerURL = "Installer/"
 local EFIURL = "EFI/Minified.lua"
 
@@ -27,7 +27,7 @@ end
 
 local function title()
 	local y = math.floor(screenHeight / 2 - 1)
-	centrizedText(y, 0x2D2D2D, "MacOS Installer")
+	centrizedText(y, 0x2D2D2D, "SoftOS Installer")
 	return y + 2
 end
 
@@ -221,7 +221,7 @@ window:addChild(GUI.panel(1, 1, window.width, window.height, 0xE1E1E1))
 
 -- Top menu
 local menu = workspace:addChild(GUI.menu(1, 1, workspace.width, 0xF0F0F0, 0x787878, 0x3366CC, 0xE1E1E1))
-local installerMenu = menu:addContextMenuItem("MacOS Installer", 0x2D2D2D)
+local installerMenu = menu:addContextMenuItem("SoftOS Installer", 0x2D2D2D)
 installerMenu:addItem("Shutdown").onTouch = function()
 	computer.shutdown()
 end
@@ -513,7 +513,7 @@ addStage(function()
 
 	-- Renaming if possible
 	if not selectedFilesystemProxy.getLabel() then
-		selectedFilesystemProxy.setLabel("MacOS HDD")
+		selectedFilesystemProxy.setLabel("SoftOS HDD")
 	end
 
 	local function switchProxy(runnable)
